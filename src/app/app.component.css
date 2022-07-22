@@ -1,0 +1,36 @@
+.wrapper {
+    padding: 25px;
+}
+
+.menu {
+    border: 1px solid gray;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    padding: 5px;
+}
+
+.choice{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.pool{
+    margin-right: 20px;
+    width: 30px;
+}
+
+.photowrap{
+    border: 1px solid gray;
+    margin-top: 20px;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.photo{
+    margin: 20px;
+    width: 220px;
+    height: 220px;
+}

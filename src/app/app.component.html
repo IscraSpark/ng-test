@@ -1,0 +1,18 @@
+<div class="wrapper">
+  <div class="menu">
+
+    <label class="pool">
+      <input #num type="number" step="1" min="1" max="100" [value]="10" id="pol" name="pol"/>
+    </label>
+    <mat-form-field appearance="fill">
+      <mat-label>Cats</mat-label>
+      <mat-select #sel [formControl]="toppings" multiple>
+        <mat-option *ngFor="let topping of toppingList" [value]="topping">{{topping}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <button (click)="search(num.value, sel.selected)">submit</button>
+  </div>
+  <div  class="photowrap">
+      <img *ngFor="let im of imgUrl" [src]=" im " class="photo">
+  </div>
+</div>
